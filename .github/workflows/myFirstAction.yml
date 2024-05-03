@@ -36,4 +36,4 @@ jobs:
       uses: mikepenz/action-junit-report@v4.1.0
       if: always()
       with:
-        files: 'reports?"/*.xml'
+        report_paths: 'reports/'
