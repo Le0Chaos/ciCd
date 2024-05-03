@@ -12,6 +12,7 @@ describe('list', () => {
   
   it('shows content as paragraph if it is a string', () => {
     const {getByTestId} = render(List, {content: 'the line'})
+    console.log("test for paragraph is running")
     
     const p = getByTestId('singleContentParagraph')
     expect(p).toBeInTheDocument();
